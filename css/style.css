@@ -386,36 +386,21 @@ footer ul li a{
 
 }
 @media(max-width:600px){
-    header #menu-icon{
-        display: block;
-    }
-    .nav-links{
-        position: absolute;
-        top: 100%;
-        margin-top: 16px;
-        width: 100%;
-        padding: 16px;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        background: rgba(0, 0, 0, 0.9);
-        border-radius: 48px;
-        display: none;
-    }
-    .nav-links li{
-        margin-top: 24px;
-        padding: 16px;
-    }
-    .nav-links .avtive{
-        display: block;
-    }
     header{
-        padding: 16px 80px;
-        gap: 128px;
+        gap: 16px;
+        padding: 16px 16px;
     }
     header .logo{
-        font-size: 24px;
+        font-size: 16px;
+    }
+    header ul li{
+        padding-bottom: 5px;
+    }
+    header ul li a{
+        font-size: 12px;
+    }
+    header .visit-btn{
+        display: none;
     }
     .about-container img{
         width: 80vw;
